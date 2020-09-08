@@ -6,17 +6,17 @@
 }
 
 .footer__link:hover {
-  opacity: 0.3;
-  transition: opacity .3s ease-in;
+  opacity: 0.8;
+  transition: opacity .3s;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px)  {
   .footer__link { 
     font-size: 24px;
-    line-height: 1.42;
+    line-height: 1;
   }
 }
-  
+
 @media screen and (min-width: 768px) {
   .footer__link { 
     font-size: 16px;

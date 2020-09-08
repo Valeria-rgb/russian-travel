@@ -5,7 +5,8 @@
   font-weight: normal;
   font-style: normal;
   margin-top: 0;
-  margin-bottom: 32px;
+  margin-bottom: 32px; 
+  margin-left: 5%;
 }
 
 @media screen and (min-width: 320px) {
@@ -23,11 +24,19 @@
 @media screen and (min-width: 768px) {
   .intro__text {
     max-width: 720px;
+    margin-left: 24px;
   }
 }
       
 @media screen and (min-width: 1024px) {
   .intro__text {
     max-width: 690px;
+    margin-left: 48px;
+  }
+} 
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    margin-left: 148px;
   }
 }  

@@ -5,30 +5,27 @@
 
 @media screen and (min-width: 320px) {
   .place {
-    margin-bottom: 48px;
-    grid-template-columns: 288px;
+    margin-bottom: 24px;
+    grid-template-columns: 320px;
     grid-template-rows: auto;
     grid-template-areas: 
       "title"
       "image"
-      "paragraph"
-      "paragraph-bottom";
+      "paragraphs";
       row-gap: 32px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .place {
-    margin-bottom: 72px;
+    margin-bottom: 48px;
     grid-template-columns: 340px 352px;
     grid-template-rows: auto;
     column-gap: 28px;
     row-gap: 48px;
     grid-template-areas: 
       "title website"
-      "image paragraph"
-      "image paragraph-bottom"
-      ". paragraph-bottom";
+      "image paragraphs";
   }
 }
 
@@ -40,8 +37,7 @@
     column-gap: 32px;
     grid-template-areas: 
       "title website"
-      "image paragraph"
-      "image paragraph-bottom";
+      "image paragraphs";
   }
 }
 
@@ -52,8 +48,6 @@
     column-gap: 40px;
     grid-template-areas: 
       "title website"
-      "image paragraph"
-      "image paragraph-bottom"
-      "image .";
+      "image paragraphs";
   }
 }

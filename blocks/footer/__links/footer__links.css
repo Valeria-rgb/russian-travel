@@ -20,9 +20,5 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
-  .footer__links { 
-    left: -100px;
-  }
-}
+
         

@@ -9,7 +9,6 @@
 @media screen and (min-width: 320px) {
   .header__lang-links {
     width: 62px;
-    height: 20px;
     margin-top: 14px;
   }
 }
@@ -17,7 +16,6 @@
 @media screen and (min-width: 425px) {
   .header__lang-links {
     width: 70px;
-    height: 25px; 
     margin-top: 18px;
   }
 }
@@ -25,7 +23,6 @@
 @media screen and (min-width: 768px) {
   .header__lang-links {
     width: 77px;
-    height: 28px;
     margin-top: 18px;
   }
 }

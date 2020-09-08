@@ -1,15 +1,14 @@
 .photo-grid {
   display: grid;
   justify-content: center;
-  width: 100%;
+  max-width: 1280px;
+  margin: 64px auto;
 }
 
 @media screen and (min-width: 320px) {
   .photo-grid {
     grid-template-columns: 288px;
     gap: 12px;
-    margin-top: 64px;
-    margin-bottom: 64px;
   }
 }
 

@@ -3,7 +3,6 @@
   font-style: normal;
   font-weight: normal;
   text-align: center;
-  font-size: 18px;
   line-height: 1.22;
   position: relative;
   z-index: 1;
@@ -13,6 +12,7 @@
   .cover__subtitle { 
     max-width: 288px;
     margin: 16px auto 0;
+    font-size: 14px;
   }
 }
   
@@ -20,5 +20,6 @@
   .cover__subtitle { 
     max-width: 360px;
     margin: 32px auto 0;
+    font-size: 18px;
   }
 }

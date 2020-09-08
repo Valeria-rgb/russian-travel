@@ -1,41 +1,10 @@
 .page {
   font-family: 'Inter', Arial, sans-serif;
+  max-width: ;
+  margin: 0;
   background: #2A2C2F;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-@media screen and (min-width: 320px) {
-  .page {
-    padding-left: 16px; 
-    padding-right: 16px; 
-  }
-}
 
-@media screen and (min-width: 425px) {
-  .page {
-    padding-left: 20px; 
-    padding-right: 20px; 
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .page {
-    padding-left: 24px; 
-    padding-right: 24px; 
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .page {
-    padding-left: 48px; 
-    padding-right: 48px; 
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .page {
-    padding-left: 148px; 
-    padding-right: 148px; 
-  }
-}
